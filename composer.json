@@ -1,0 +1,41 @@
+{
+  "name": "php-bicycle/php-bicycle"
+  , "type": "library"
+  , "description": "Bicycle project root"
+  , "keywords": [ "bicycle", "util"]
+  , "homepage": "https://github.com/pqbd/php-bicycle"
+  , "license": "BSD-3-Clause"
+  , "authors": 
+  [
+    {
+      "name": "Alexander Volkov"
+      , "email": "alx.volkov@gmail.com"
+      , "homepage": "http://volkov.cz"
+      , "role": "lead"
+    }
+  ]
+  , "require": 
+  {
+    "php": ">=5.3.9"
+  }
+  , "require-dev": 
+  {
+    "phpunit/phpunit": "~4.5"
+  }
+  , "autoload": 
+  {
+    "psr-4": { "bicycle\\": "src/bicycle"}
+  }
+  , "autoload-dev": 
+  {
+    "psr-4": { "bicycle\\": "test/bicycle"}
+  }
+  , "minimum-stability": "dev"
+  , "extra": 
+  {
+    "branch-alias": 
+    {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
