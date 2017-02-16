@@ -1,8 +1,8 @@
 {
   "name": "php-bicycle/php-bicycle"
   , "type": "library"
-  , "description": "Bicycle project root"
-  , "keywords": [ "bicycle", "util"]
+  , "description": "Alternatives manifest. It is the base project for all bicycles."
+  , "keywords": [ "alternative", "bicycle", "util"]
   , "homepage": "https://github.com/pqbd/php-bicycle"
   , "license": "BSD-3-Clause"
   , "authors": 
@@ -28,7 +28,7 @@
   }
   , "autoload-dev": 
   {
-    "psr-4": { "bicycle\\": "test/bicycle"}
+    "psr-4": { "bicycle\\": "tests/bicycle"}
   }
   , "minimum-stability": "dev"
   , "extra": 

@@ -1,2 +1,3 @@
-# php-bicycle
-Core common project for all bicycles
+#Alternative manifest
+
+That is the core project for all bicycles.
